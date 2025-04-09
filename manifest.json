@@ -1,23 +1,22 @@
 {
   "name": "Click to Call",
-  "description": "Adds a click-to-call button in CRM contacts",
-  "version": "1.0.0",
-  "type": "application",
   "code": "click_to_call_app",
-  "partner": {
-    "name": "Your Company",
-    "www": "https://yourdomain.com"
-  },
-  "url": "https://yourdomain.com/index.html",
+  "version": "1.0.0",
+  "description": "Adds a click-to-call button to CRM Contact page",
+  "url": "https://bitrix24-click2call-test.vercel.app/",
   "placement": [
     {
       "placement": "CRM_CONTACT_DETAIL_TAB",
-      "handler": "https://yourdomain.com/index.html",
+      "handler": "https://bitrix24-click2call-test.vercel.app/",
       "title": "Call",
-      "description": "Click to call from contact"
+      "description": "Click to call this contact"
     }
   ],
   "install": {
-    "url": "https://yourdomain.com/index.html"
+    "url": "https://bitrix24-click2call-test.vercel.app/"
+  },
+  "partner": {
+    "name": "Your Company Name",
+    "www": "https://yourcompany.com"
   }
 }
