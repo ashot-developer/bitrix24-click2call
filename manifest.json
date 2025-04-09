@@ -1,0 +1,23 @@
+{
+  "name": "Click to Call",
+  "description": "Adds a click-to-call button in CRM contacts",
+  "version": "1.0.0",
+  "type": "application",
+  "code": "click_to_call_app",
+  "partner": {
+    "name": "Your Company",
+    "www": "https://yourdomain.com"
+  },
+  "url": "https://yourdomain.com/index.html",
+  "placement": [
+    {
+      "placement": "CRM_CONTACT_DETAIL_TAB",
+      "handler": "https://yourdomain.com/index.html",
+      "title": "Call",
+      "description": "Click to call from contact"
+    }
+  ],
+  "install": {
+    "url": "https://yourdomain.com/index.html"
+  }
+}
